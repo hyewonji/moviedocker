@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 // jsconfig.json파일 때문에 기본적으로 scr에서 폴더를 찾게 하기 때문.
 import App from 'Components/App';
 // import reportWebVitals from './reportWebVitals';
+import './api';
 
 ReactDOM.render(
   <React.StrictMode>

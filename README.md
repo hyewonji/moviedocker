@@ -4,7 +4,18 @@ Learning React and ES6 by building a Movie Discovery
 
 ## Screens
 
-- [] Home
-- [] TV Shows
-- [] Search
-- [] Detail
+- [ ] Home
+- [ ] TV Shows
+- [ ] Search
+- [ ] Detail
+
+## API Verbs
+
+- [x] Now playing (Movie)
+- [x] Upcoming (Movie)
+- [x] Top Rated (TV, Movie)
+- [x] Populer (TV, Movie)
+- [x] Airing Today (TV)
+- [x] TV Show Detail
+- [x] Movie Dedail
+- [x] Search (TV, Movie)
