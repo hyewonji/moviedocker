@@ -1,5 +1,6 @@
 import React from 'react';
 import HomePresenter from './HomePresenter'
+import { movieApi } from 'api';
 
 export default class extends React.Component{
     state = {
@@ -8,6 +9,35 @@ export default class extends React.Component{
         popular: null,
         error: null,
         loading: true
+    };
+
+    async componentDidMount(){
+        try{
+            const {
+                data: {results: nowPlaying}
+            } = await movieApi.nowPlaying();
+            const {
+                data: {results: upcoming}
+            } = await movieApi.upcoming();
+            const {
+                data: {results: popular}
+            } = await movieApi.popular();
+
+            //자마스크립트에서 'nowPlaying: nowPlaying' 과 'nowPlaying'는 같은 의미
+            this.setState({
+                nowPlaying,
+                upcoming,
+                popular
+            })
+        } catch{
+            this.setState({
+                error: "Can't find movie information."
+            });
+        } finally{
+            this.setState({
+                loading: false
+            });
+        }
     }
 
     render () {
@@ -20,6 +50,6 @@ export default class extends React.Component{
                 error={error}
                 loading={loading}
             />
-        )
+        );
     }
 }
