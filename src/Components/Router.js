@@ -15,10 +15,10 @@ export default () => (
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/tv" exact component={TV} />
-                <Route path="/tv/popular" render={() => <h1>Popular</h1>} />
-                <Route path="/search" component={Search} />
-                <Route path="/movie/:id" component={Detail} />
-                <Route path="/show/:id" component={Detail} />
+                <Route path="/tv/popular" exact render={() => <h1>Popular</h1>} />
+                <Route path="/search" exact component={Search} />
+                <Route path="/movie/:id" exact component={Detail} />
+                <Route path="/show/:id" exact component={Detail} />
                 <Redirect from="*" to="/" />
             </Switch> 
         </>
