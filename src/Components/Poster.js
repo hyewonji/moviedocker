@@ -9,11 +9,11 @@ const ImageContainer = styled.div``;
 
 const Image = styled.div``;
 
-const Rating = styled.div``;
+const Rating = styled.span``;
 
-const Title = styled.div``;
+const Title = styled.span``;
 
-const Year = styled.div``;
+const Year = styled.span``;
 
 const Poster = ({ id, imageUrl, title, rating, year, isMovie = false }) => (
     <Link to={isMovie ? `/movie/${id}` : `/show/${id}`}>
@@ -41,3 +41,5 @@ Poster.propTypes = {
     year: PropTypes.string,
     isMovie: PropTypes.bool
 }
+
+export default Poster
