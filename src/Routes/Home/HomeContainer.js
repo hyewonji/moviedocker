@@ -22,7 +22,7 @@ export default class extends React.Component{
             const {
                 data: {results: popular}
             } = await movieApi.popular();
-
+            
             //자바스크립트에서 'nowPlaying: nowPlaying' 과 'nowPlaying'는 같은 의미
             this.setState({
                 nowPlaying,
