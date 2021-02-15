@@ -15,3 +15,7 @@ export const exchangesApi = {
 export const coinsApi = {
   coins: () => api.get("coins")
 };
+
+export const CoinDetailApi = {
+  coinDetail: id  => api.get(`coins/${id}`)
+}

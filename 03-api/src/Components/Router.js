@@ -4,6 +4,7 @@ import Header from "./Header";
 import Coins from "../Screens/Coins";
 import Exchanges from "../Screens/Exchanges";
 import Prices from "../Screens/Prices";
+import CoinDetail from './CoinDetail';
 
 export default () => {
   return (
@@ -12,6 +13,7 @@ export default () => {
       <Route path="/" exact component={Prices} />
       <Route path="/exchanges" component={Exchanges} />
       <Route path="/coins" exact component={Coins} />
+      <Route path="/coins/:id" exact component={CoinDetail} />
     </Router>
   );
 };
