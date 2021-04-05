@@ -15,13 +15,11 @@ const Container = styled.div`
 const TVPresenter = ({topRated, airingToday, popular, error, loading}) => 
         <>
                 <Helmet>
+                        <link rel='icon' href="https://img.icons8.com/pastel-glyph/2x/movie-beginning.png" />
                         <title>Movie | MD</title>
                 </Helmet>
                 {loading ? <Loader /> :  (
                         <Container>
-                                <Helmet>
-                                        <title>TV | MD</title>
-                                </Helmet>
                                 {topRated && topRated.length > 0 && (
                                         <Section title = "Top Rated Shows">
                                                 {topRated.map(show => (

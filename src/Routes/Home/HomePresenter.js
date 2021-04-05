@@ -15,6 +15,7 @@ const Container = styled.div`
 const HomePresenter = ({nowPlaying, upcoming, popular, error, loading}) =>
         <>
                 <Helmet>
+                        <link rel='icon' href="https://img.icons8.com/pastel-glyph/2x/movie-beginning.png" />
                         <title>Movie | MD</title>
                 </Helmet>
                 {loading ? (

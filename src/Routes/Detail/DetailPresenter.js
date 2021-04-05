@@ -80,6 +80,7 @@ const DetailPresenter = ({result, error, loading}) => (
         ) : (
         <Container> 
                 <Helmet>
+                        <link rel='icon' href="https://img.icons8.com/pastel-glyph/2x/movie-beginning.png" />
                         <title>
                                 {result.original_title 
                                 ? result.original_title 

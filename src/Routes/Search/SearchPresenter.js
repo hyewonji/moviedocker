@@ -34,6 +34,7 @@ const SearchPresenter = ({
 }) => ( 
                 <Container>
                         <Helmet>
+                                <link rel='icon' href="https://img.icons8.com/pastel-glyph/2x/movie-beginning.png" />
                                 <title>Search | MD</title>
                         </Helmet>
                         <Form onSubmit={handleSubmit}>
