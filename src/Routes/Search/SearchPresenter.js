@@ -34,7 +34,7 @@ const SearchPresenter = ({
 }) => ( 
                 <Container>
                         <Helmet>
-                                <title>Search | Nomflix</title>
+                                <title>Search | MD</title>
                         </Helmet>
                         <Form onSubmit={handleSubmit}>
                                 <Input 

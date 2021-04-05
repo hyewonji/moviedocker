@@ -73,7 +73,7 @@ const DetailPresenter = ({result, error, loading}) => (
         loading ? (
                 <>
                         <Helmet>
-                                <title>Loading | Nomflix</title>
+                                <title>Loading | MD</title>
                         </Helmet>
                         <Loader />
                 </>
