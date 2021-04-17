@@ -5,7 +5,7 @@ import GlobalStyles from 'Components/Globalstyles'
 
 
 function App() {
-  Favicon()
+  //Favicon()
   return (
     <>
       <Router />
