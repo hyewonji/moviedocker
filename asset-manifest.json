@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/moviedocker/static/js/main.160755a5.chunk.js",
-    "main.js.map": "/moviedocker/static/js/main.160755a5.chunk.js.map",
+    "main.js": "/moviedocker/static/js/main.eb065bfe.chunk.js",
+    "main.js.map": "/moviedocker/static/js/main.eb065bfe.chunk.js.map",
     "runtime-main.js": "/moviedocker/static/js/runtime-main.d61a2a07.js",
     "runtime-main.js.map": "/moviedocker/static/js/runtime-main.d61a2a07.js.map",
     "static/js/2.9cac51a0.chunk.js": "/moviedocker/static/js/2.9cac51a0.chunk.js",
@@ -13,6 +13,6 @@
   "entrypoints": [
     "static/js/runtime-main.d61a2a07.js",
     "static/js/2.9cac51a0.chunk.js",
-    "static/js/main.160755a5.chunk.js"
+    "static/js/main.eb065bfe.chunk.js"
   ]
 }
