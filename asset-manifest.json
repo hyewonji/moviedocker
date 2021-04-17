@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/moviedocker/static/js/main.4e51f1b4.chunk.js",
-    "main.js.map": "/moviedocker/static/js/main.4e51f1b4.chunk.js.map",
+    "main.js": "/moviedocker/static/js/main.160755a5.chunk.js",
+    "main.js.map": "/moviedocker/static/js/main.160755a5.chunk.js.map",
     "runtime-main.js": "/moviedocker/static/js/runtime-main.d61a2a07.js",
     "runtime-main.js.map": "/moviedocker/static/js/runtime-main.d61a2a07.js.map",
-    "static/js/2.db9acba7.chunk.js": "/moviedocker/static/js/2.db9acba7.chunk.js",
-    "static/js/2.db9acba7.chunk.js.map": "/moviedocker/static/js/2.db9acba7.chunk.js.map",
+    "static/js/2.9cac51a0.chunk.js": "/moviedocker/static/js/2.9cac51a0.chunk.js",
+    "static/js/2.9cac51a0.chunk.js.map": "/moviedocker/static/js/2.9cac51a0.chunk.js.map",
     "index.html": "/moviedocker/index.html",
-    "static/js/2.db9acba7.chunk.js.LICENSE.txt": "/moviedocker/static/js/2.db9acba7.chunk.js.LICENSE.txt",
+    "static/js/2.9cac51a0.chunk.js.LICENSE.txt": "/moviedocker/static/js/2.9cac51a0.chunk.js.LICENSE.txt",
     "static/media/noPosterSmall.png": "/moviedocker/static/media/noPosterSmall.25a4e6b7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d61a2a07.js",
-    "static/js/2.db9acba7.chunk.js",
-    "static/js/main.4e51f1b4.chunk.js"
+    "static/js/2.9cac51a0.chunk.js",
+    "static/js/main.160755a5.chunk.js"
   ]
 }
