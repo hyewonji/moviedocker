@@ -1,6 +1,8 @@
 # Movie Docker
 
-Learning React and ES6 by building a Movie Discovery
+Learning React and ES6 by building a Movie Discovery</br>
+[Demo](https://hyewonji.github.io/moviedocker)
+
 
 ## Screens
 
